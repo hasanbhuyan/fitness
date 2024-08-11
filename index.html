@@ -4,43 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/9020de8334.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
-        <div class="header-section">
-            <nav class="navbar d-flex">
-                <h1 class="logo">Fitness</h1>
-                <div class="menu-header">
-                    <ul class="d-flex">
-                        <li>Home</li>
-                        <li>Service</li>
-                        <li>Contuct</li>
-                        <li>About</li>
-                    </ul>
-                </div>
+        <div class="banner-container">
+            <nav class="d-flex">
+                <div class="logo">Fitness</div>
+                <ul class="menu d-flex">
+                    <li>Home</li>
+                    <li>Service</li>
+                    <li>Contuct</li>
+                    <li>About</li>
+                </ul>
             </nav>
-    
-            <div class="banner-container d-flex">
+            <div class="banner d-flex">
                 <div class="banner-info">
                     <h1>Get body in <br> <span class="miama-text">shape</span> & stay <br> healthy</h1>
                     <p>A huge selection of health and fitness content, healthy recipes <br> and transformation stories to help you get fit and stay fit!</p>
-                    <button class="btn">Join Now</button>
-                    <button class="btn download-btn">Download App</button>
+                    <div class="banner-buttons d-flex">
+                        <button class="btn">Join Now</button>
+                        <button class="btn download-btn">Download App</button>
+                    </div>
                 </div>
                 <div class="banner-image">
                     <img src="images/Images 2.png" alt="">
                     <div class="free-video">
-                        <div>
+                        <div class="video-500">
                             <h2>500+</h2>
                             <p>Free Workout Videos</p>
                         </div>
                     </div>
                     <div class="video-tutorial">
-                        <div class="div">
-                            <!-- circle -->
+                        <div class="tutorial">
+                            <i class="fa-solid fa-play play"></i>
                         </div>
-                        <div>
+                        <div class="video-350">
                             <h2>350+</h2>
                             <p>video tutorial</p>
                         </div>
@@ -48,38 +49,40 @@
                 </div>
             </div>
         </div>
-    </header>
+     </header>
     <main>
         <section class="change-habit">
             <h1 class="text-center">Change Your Habit</h1>
             <p class="text-center">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-            <div class="habit">
-                <div class="habit-card d-flex">
+            <div class="habit-card d-flex flex-column-sm">
+                <div class="habit d-flex">
                         <img src="images/image 3.png" alt="">
                         <h3>Movment</h3>
                         <p>We believe fitness should be accessible to everyone</p>
                 </div>
-                <div class="habit-card d-flex">
-                        <img src="images/image 3.png" alt="">
+                <div class="habit d-flex">
+                        <img src="images/image 2.png" alt="">
                         <h3>Movment</h3>
                         <p>We believe fitness should be accessible to everyone</p>
                 </div>
-                <div class="habit-card d-flex">
-                        <img src="images/image 3.png" alt="">
+                <div class="habit d-flex">
+                        <img src="images/image 4.png" alt="">
                         <h3>Movment</h3>
                         <p>We believe fitness should be accessible to everyone</p>
                 </div>
-                <div class="habit-card d-flex">
-                        <img src="images/image 3.png" alt="">
+                <div class="habit d-flex">
+                        <img src="images/image 5.png" alt="">
                         <h3>Movment</h3>
                         <p>We believe fitness should be accessible to everyone</p>
                 </div>
             </div>
-            <div class="run-extra-mile d-flex">
+        </section>
+        <section>
+            <div class="run-extra-mile d-flex flex-column-sm">
                 <div class="extram-mile-info">
                     <h1>Run an Extra Mile Easily</h1>
                     <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
-                    <button class="btn">Join Now</button>
+                    <button class="btn btn-extra-mile">Join Now</button>
 
                 </div>
                 <div class="extram-mile-img">
@@ -88,13 +91,11 @@
             </div>
         </section>
         <!-- dbmi calculator section start  -->
-         <section>
-            <div class="calculator-heading">
-                <div>
+         <section class="bmi">
+                <div class="calculator-heading">
                 <h1>BMI Calculator</h1>
                 <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
                 </div>
-            </div>
             <div class="calculator-container d-flex">
                 <div class="claculator-chart">
                     <h2>BMI Calculator Chart</h2>
@@ -157,7 +158,7 @@
         <!-- dbmi calculator section end  -->
 
         <!-- meet our team section start  -->
-         <section>
+         <!-- <section>
             <h1>Meet Our Team</h1>
             <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             <div class="team-members color-gray">
@@ -216,44 +217,8 @@
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
-            <!-- <div class="member-1">
-                    <div class="member-info">
-                        <h1>Jerome Bell</h1>
-                        <p>trainer</p>
-                    </div>
-            </div>
-            <div class="member-2">
-                    <div class="member-info">
-                        <h1>Jerome Bell</h1>
-                        <p>trainer</p>
-                    </div>
-            </div>
-            <div class="member-3">
-                    <div class="member-info">
-                        <h1>Jerome Bell</h1>
-                        <p>trainer</p>
-                    </div>
-            </div>
-            <div class="member-4">
-                    <div class="member-info">
-                        <h1>Jerome Bell</h1>
-                        <p>trainer</p>
-                    </div>
-            </div>
-            <div class="member-5">
-                    <div class="member-info">
-                        <h1>Jerome Bell</h1>
-                        <p>trainer</p>
-                    </div>
-            </div>
-            <div class="member-6">
-                    <div class="member-info">
-                        <h1>Jerome Bell</h1>
-                        <p>trainer</p>
-                    </div>
-            </div> -->
             </div>       
-         </section>
+         </section> -->
         <!-- meet our team section end  -->
     </main>
     <footer style="display:none;">

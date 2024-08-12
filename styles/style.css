@@ -18,7 +18,7 @@ header{
 }
 /* common styles  */
 .banner-container,section{
-    max-width: 75%;
+    max-width: 1060px;
     margin: 0 auto;
 }
 .d-flex{
@@ -37,9 +37,6 @@ p{
     font-size: 1rem;
     font-weight: 400;
     font-family: "Inter";
-}
-.color-gray{
-    background-color:rgb(34, 34, 34);
 }
 .btn{
     width: 224px;
@@ -156,7 +153,7 @@ nav{
     max-width: 671px;
     margin: 0 auto;
 }
-.change-habit>h1{
+.change-habit>{
     font-size: 3rem;
     margin-bottom: 2%;
 }
@@ -226,6 +223,8 @@ nav{
 .calculator-container{
     justify-content: space-between;
     padding-top: 7%;
+    padding-bottom: 7%;
+
     
 }
 .claculator-chart>h2{
@@ -282,22 +281,36 @@ input,select{
 }
 
 /* meet our team  */
+.meet-our-team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
 .team-members{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    background-color:rgb(34, 34, 34);
+    border-radius: 18px;
+    padding: 2%;
+    margin: 0 auto;
+    
 }
 .member{
+    margin: 0 auto;
     position: relative;
 }
-.member-info{
-    position: absolute;
-    bottom: 10%;
-    left: 2%;
-}
-.member-img img{
-    width: 326.67px;
+.member img{
+    width: 326px;
     height: 272px;
     border-radius: 18px;
+}
+.traniner-info{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
 }
 /* footer section  */
 .footer{
@@ -401,5 +414,13 @@ input,select{
    .calculator{
     width: 300px;
    }
+   /* meet our team  */
+.team-members{
+    grid-template-columns: 1fr;
+    width: 90%;
+    padding-top: 25px;
+}
     
 }
+
+

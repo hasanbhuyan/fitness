@@ -464,8 +464,8 @@ footer{
     .free-video{
         width: 145px;
         height: 74px;
-        top: 95px;
-        right: -10px;
+        top: 50px;
+        right: -30px;
     }
     .video-500>h2,.video-350>h2{
         font-size: 1.8rem;
@@ -478,8 +478,8 @@ footer{
     .video-tutorial{
         width: 155px;
         height: 72px;
-        bottom: 250px;
-        right: 170px;
+        bottom: 210px;
+        right: 110px;
     }
     .play{
         display: block;

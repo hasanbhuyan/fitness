@@ -522,8 +522,8 @@ footer{
    /* meet our team  */
 .team-members{
     grid-template-columns: 1fr;
-    width: 90%;
-    padding-top: 25px;
+    width: 92%;
+    padding-top: 10px;
 }
  /* membership  */
  .mebmership-container,.run-extra-mile{
